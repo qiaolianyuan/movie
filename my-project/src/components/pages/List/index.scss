@@ -1,0 +1,60 @@
+
+
+.list {
+    
+    .title {
+        height: 33px;
+        background-color: #f2f2f2;
+        line-height: 33px;
+        font-size: 13px;
+        text-align: center;
+        color: #323232;
+        margin-bottom: -5px;
+    }
+    
+    .goods-box {
+        padding: 0px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        .goods-item {
+            width: 1.75rem;
+            background: #fff;
+           
+            margin-top: 5px;
+            
+            .img-box {
+                width: 1.75rem;
+                height: 1.75rem;
+                
+            }
+            .name {
+                font-size: 12px;
+                height: 34px;
+                color: #323232;
+                text-align: left;
+                padding: 0px 6px;
+                width: 100%;
+                word-break: break-all;
+                overflow: hidden;
+            }
+            .content {
+                    text-align: left;
+    padding-bottom: 10px;
+                .price {
+                        font-size: 13px;
+    color: #ff5000;
+    padding-left: 6px;
+                }
+                .inventory {
+                    font-size: 9px;
+                    color: #999;
+                    margin-left: 15px;
+                }
+            }
+        }
+        
+       
+    }
+}

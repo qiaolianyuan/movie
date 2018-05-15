@@ -1,0 +1,35 @@
+
+
+.mine-user {
+    .bg-box {
+         height: 200px;
+        background-image: url(/images/user-bg.jpg);
+        background-size: 100% 100%;
+        filter: blur(10px);     
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+    }
+    .info-box {
+        height: 200px;
+         display: flex;        
+        flex-flow: column;        
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0px;
+        .user-name {
+            color: #fff;
+            font-size: 1.5em;
+        }
+        
+        .user-signature {
+            color: #f3195e;
+//           font-size: 1.2em;
+        }
+        
+        
+    }
+    
+}
